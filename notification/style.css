@@ -4,15 +4,14 @@
     border: 1px solid black;
     border-radius: 10px;
     position: absolute;
-    /*top: 10px;*/
     right: 10px;
     box-shadow: 5px 5px 35px black;
     background-color:#4F7B7D;
     color: whitesmoke;
     padding: 10px;
-
     animation-name: slide;
     animation-duration: 2s;
+    top: 20px;
 }
 
 @keyframes slide {
