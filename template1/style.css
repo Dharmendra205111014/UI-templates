@@ -1,0 +1,50 @@
+* { padding: 0; margin: 0; }
+      html, body, #fullheight {
+          min-height: 100% !important;
+          height: 100%;
+      }
+      body{
+        height: 100%;
+        width: 100%;
+      }
+      .mainContainer{
+        height: 100%
+      }
+      .innerContainer{
+        border:1px solid;
+        height: 100%
+      }
+      .add {
+         background: url('JD.jpg') no-repeat;
+         background-size: cover;
+         color: whitesmoke;
+         display: table;
+         padding: 0px;
+      }
+      .add .content {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 30px;
+        margin: 0px;
+        background: rgba(100,100,100, 0.5);
+      }
+
+      .productLine{
+        height: 25%;
+      }
+     .products{
+        border: 5px solid white;
+        height: 100%;
+        background-size: 100% 100%;
+        cursor: pointer;
+      }
+      .products .img-fluid{
+          height: 100%;
+          width: 100%;
+      }
+
+      @media only screen and (max-width: 991px) {
+            .productLine{
+                height: auto;
+            }
+        }
