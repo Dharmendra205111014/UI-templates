@@ -4,21 +4,64 @@
     border: 1px solid black;
     border-radius: 10px;
     position: absolute;
-    right: 10px;
     box-shadow: 5px 5px 35px black;
     background-color:#4F7B7D;
     color: whitesmoke;
     padding: 10px;
-    animation-name: slide;
-    animation-duration: 2s;
-    top: 20px;
-}
-
-@keyframes slide {
- from {  top: 0px;}
- to { top: 20px;}
     
 }
 
-/* CSS for button used*/
+.topLeft {
+    left: 10px;
+    top: 20px;
+    animation-name: top;
+    animation-duration: 2s;
+}
 
+.topRight {
+    right: 10px;
+    top: 20px;
+    animation-name: top;
+    animation-duration: 2s;
+}
+
+.bottomLeft {
+    left: 10px;
+    bottom: 20px;
+    animation-name: bottom;
+    animation-duration: 2s;
+}
+
+.bottomRight {
+    right: 10px;
+    bottom: 20px;
+    animation-name: bottom;
+    animation-duration: 2s;
+}
+
+
+@keyframes top {
+ from {  top: 0px;}
+ to { top: 20px;}  
+}
+
+@keyframes bottom {
+ from {  bottom: 0px;}
+ to { bottom: 20px;}  
+}
+
+/* CSS for button used*/
+.container-fluid{
+    margin-top: 20px;
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+table tr td{
+    padding: 5px;
+}

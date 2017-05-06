@@ -8,8 +8,18 @@
     <script src="notify.js" type="text/javascript"></script>
   </head>
   <body>
-    <div>
-      <button id="button" class="btn"> create popup </button>
+    <div class="container-fluid row">  
+        <button id="button" class="btn"> create popup </button>
+        <table>
+          <tr>
+            <td><input type="radio" name="position" value="topRight" checked> topRight<td>
+            <td><input type="radio" name="position" value="bottomRight"> bottomRight<td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="position" value="topLeft"> topLeft<td>
+            <td><input type="radio" name="position" value="bottomLeft"> bottomLeft<td>
+          </tr>
+        </table>
     </div>
 
     <!-- notification popup -->
